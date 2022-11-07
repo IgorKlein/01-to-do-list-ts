@@ -12,9 +12,8 @@ export function InputForm( {onAddTask}: InputFormProps ) {
 
     function handleAddNewTask(event: FormEvent<HTMLFormElement>) {
         event.preventDefault();
-        const content: string = event.target.content.value
-        console.log(content)
-        onAddTask(content)
+        // In TypeScript, we need to use "currentTarget" instead of "target".
+        onAddTask(event.currentTarget.content.value)
         setNewTaskContent("")
     }
 
