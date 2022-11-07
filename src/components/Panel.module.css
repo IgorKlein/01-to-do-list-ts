@@ -1,0 +1,41 @@
+main {
+    width: 100%;
+    max-width: 46rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 46rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.created {
+    color: var(--blue);
+    font-size: 0.875rem;
+}
+
+.done {
+    color: var(--purple);
+    font-size: 0.875rem;
+}
+
+.counter {
+    padding: 0 0.5rem;
+    margin: 0 0 0 0.5rem;
+    background: var(--gray-400);
+    border-radius: 8px;
+    font-size: 0.75rem;
+}
+
+.counter p {
+    color: var(--gray-200);
+}

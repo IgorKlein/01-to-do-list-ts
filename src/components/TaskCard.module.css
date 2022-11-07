@@ -1,0 +1,86 @@
+.taskCard {
+    width: 100%;
+    max-width: 46rem;
+    padding: 1rem;
+    background: var(--gray-500); 
+    color: var(--gray-100);
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.taskCard + .taskCard {
+    margin-top: 0.75rem;
+}
+
+.taskCard div {
+    display: flex;
+    gap: 0.75rem;
+
+}
+
+.container {
+    display: flex;
+}
+
+.container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: relative;
+    top: 3px;
+    left: 0;
+    height: 1rem;
+    width: 1rem;
+    border: 2px solid var(--blue);
+    border-radius: 0.5rem;
+    background: transparent;
+    transition: 0.1s;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: var(--blue-dark);
+}
+
+.container input:checked ~ .checkmark {
+    border: 2px solid var(--purple);
+    background-color: var(--purple);
+}
+
+.container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 3.5px;
+    top: 1px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.taskDescriptionDone {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.taskCard a {
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
