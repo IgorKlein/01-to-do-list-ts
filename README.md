@@ -1,9 +1,10 @@
 <h1 align="left">
-    <!-- <img alt="Ignite To Do" title="Ignite Feed Logo" src="./src/assets/ignite-logo.svg"> -->
     Ignite To Do
 </h1>
 
-You can test the application by clicking here: 
+You can test the application by clicking here: <strong>https://extraordinary-starlight-29e61c.netlify.app/</strong>
+
+<img alt="Ignite To Do" title="Ignite Feed Logo" src="./src/assets/screenshot.png">
 
 ## 1. 🏁 List of Contents
 
