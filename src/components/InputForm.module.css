@@ -45,7 +45,7 @@
     background: var(--blue);
 }
 
-@media (max-width: 580px) { 
+@media (max-width: 720px) { 
     .inputForm {
         flex-direction: column;
         width: 100%;

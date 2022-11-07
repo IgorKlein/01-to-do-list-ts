@@ -35,15 +35,15 @@ export function Panel(
         <main>
           <div className={styles.container}>
             <div className={styles.summary}>
-              <h2 className={styles.created}>Tarefas criadas</h2>
+              <h2 className={styles.created}>Created Tasks</h2>
               <div className={styles.counter}>
                 <p>{tasksCounter}</p>
               </div>
             </div>
             <div className={styles.summary}>
-              <h2 className={styles.done}>Concluídas</h2>
+              <h2 className={styles.done}>Done Tasks</h2>
               <div className={styles.counter}>
-                <p>{tasksDoneCounter}</p>
+                <p>{tasksDoneCounter} de {tasksCounter}</p>
               </div>
             </div>
           </div>

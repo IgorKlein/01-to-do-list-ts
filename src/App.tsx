@@ -10,23 +10,23 @@ import { EmptyScreen } from './components/EmptyScreen';
 const Tasks = [
   {
     id: 1666689290093,
-    content: 'Tarefa de número 01.',
+    content: 'Stretch the body after getting-up.',
     isDone: false,
   },
   {
     id: 1666689314752,
-    content: 'Tarefa de número 02.',
+    content: 'Drink a glass of water.',
     isDone: false
   },
   {
     id: 1666689314753,
-    content: 'Tarefa de número 03.',
-    isDone: true
+    content: 'Have a gorgeous breakfast.',
+    isDone: false
   },
   {
     id: 1666689314754,
-    content: 'Tarefa de número 04.',
-    isDone: true
+    content: 'Brush the teeth before going work.',
+    isDone: false
   },
 ]
 

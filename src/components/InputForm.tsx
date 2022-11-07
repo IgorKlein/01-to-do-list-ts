@@ -34,14 +34,14 @@ export function InputForm( {onAddTask}: InputFormProps ) {
             <input
                 type="text"
                 name="content" 
-                placeholder="Adicione uma nova tarefa"
+                placeholder="Add a new task"
                 value={newTaskContent}
                 onChange={handleNewTextContentChange}
                 autoComplete="off"
                 required
             />
             <button type="submit">
-                <p>Criar</p>
+                <p>Create</p>
                 <img src={plusIcon}/>
             </button>
         </form>
